@@ -11,11 +11,11 @@ const GameGrid = () => {
         columns={{
           sm: 1,
           md: 2,
-          lg: 3,
+          lg: 4,
           xl: 5,
         }}
         spacing={5}
-        padding="10px"
+        padding="18px"
       >
         {games.map((game) => (
           <GameCard key={game.id} game={game} />
